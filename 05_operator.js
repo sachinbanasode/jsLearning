@@ -47,3 +47,17 @@ console.log(20<10);//less than
 
 var marks = 35;
 console.log(marks<=35);
+
+//23feb
+var marks = 70;
+var result = marks>=60?"Allow Him for interview ": "Don't allow";
+console.log(result );
+
+var age = 21;
+var res= age >= 21 ? true: false;
+console.log(res);
+
+var myNumber =7;
+//even - Divide by 2 and reminder is 0
+var result = myNumber%2==0? "Even": "Odd"
+console.log(result);
