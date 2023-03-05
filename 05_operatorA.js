@@ -5,10 +5,10 @@ function squareOfWordLength(word) {
 
    
     var wordLength=word.length;
-    console.log(` Total no of character available in the word is: ${wordLength}`);
+    console.log(` Total no of character available in the word ${ word} is: ${wordLength}`);
 
     var wordsquare = wordLength*wordLength;
-    console.log( `Square of the word length is ${wordsquare}`);
+    console.log( `Square of the ${ word}  length is ${wordsquare}`);
     // return square;
     
 }
