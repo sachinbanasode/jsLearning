@@ -33,15 +33,14 @@ console.log(result);
 console.log("-------------------------Quation 3--------------------------");
 
 function wordLength(word) {
-    var wordLength = word.length;
-    // console.log(wordLength);
+  var wordLength = word.length;
+  // console.log(wordLength);
 
-    if (wordLength%2==0) {
-    console.log(`Character length of ${ word} is Even`);
-        
-    } else {
-        console.log(`Character length of ${ word} is Odd`);
-    }    
+  if (wordLength % 2 == 0) {
+    console.log(`Character length of ${word} is Even`);
+  } else {
+    console.log(`Character length of ${word} is Odd`);
+  }
 }
 wordLength("javaScript");
 wordLength("developer");

@@ -1,13 +1,13 @@
 function checkLeapYear(leapYear) {
-    if ( (typeof leapYear == "number") && isNaN == (leapYear) ) {
-        console.log(`${leapYear} is leap Year` );
-
+    if ( (typeof leapYear != "number") || isNaN == leapYear ) {
+        console.log(`${leapYear} is invalid data` );
+    
     }
 
     if (leapYear%4==0  ) {
-        console.log(`${leapYear} is leap m Year` );
+        console.log(`${leapYear} is leap  Year` );
     } else {
-        console.log(`${leapYear} is leap Year` );
+        console.log(`${leapYear} is no leap Year` );
     }
     
 }

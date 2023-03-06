@@ -32,7 +32,7 @@ console.log(result);
 console.log("----------Quation no 02-----------");
 
 function gradeCalculation(marks) {
-  if (marks <= 0 || marks > 100 || (typeof marks == "Number" )|| isNaN == marks) {
+  if (marks <= 0 || marks > 100 || (typeof marks != "Number" )) {
     console.log(`Please provide the valid marks`);
   } else {
     if (marks >= 90) {
