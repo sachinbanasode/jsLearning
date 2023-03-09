@@ -114,3 +114,35 @@ var arrayOfNumbers = [10, 20, 25, 15, 40, 45];
 console.log(arrayOfNumbers);
 arrayOfNumbers.splice(2, 1  , 50, 50);
 console.log(arrayOfNumbers);
+
+
+
+
+console.log('-----------------------------------------date 8 march------------------------------------------------------------------------------');
+console.log("===== Traversing  ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    console.log(arrayOfNumbers);
+    
+}
+//sum of array
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+var sum = 0;
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    // console.log(arrayOfNumbers);
+    sum = sum  + element;
+}
+console.log(`sum of array element is:  ${sum}`);
+
+
+//sum of even element
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+var sum = 0;
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    // console.log(arrayOfNumbers);
+    sum = sum  + element;
+}
+console.log(`sum of array element is:  ${sum}`);
