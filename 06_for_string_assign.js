@@ -15,4 +15,15 @@ vowelCount("i am angular  Champ");
 vowelCount("JavaScript is the language of internet");
 vowelCount("Hard work and commitment is the key of success");
 
-console.log("========== Step 1 ========== Find the total character available in the last word");
+console.log("========== Step 2 ========== Find the total character available in the last word");
+
+function lastWordCarsCount(word) {
+   for (let index = 0; index < lastWordCarsCount.length; index++) {
+      const element = lastWordCarsCount[index];
+      
+   }
+   
+}
+lastWordCarsCount("i am angular  Champ");
+// lastWordCarsCount("JavaScript is the language of internet");
+// lastWordCarsCount("Hard work and commitment is the key of success");
