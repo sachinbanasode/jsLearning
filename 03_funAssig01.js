@@ -13,7 +13,8 @@ console.log("*****Quation no 2 ******");
 function personalDetails (firstName ,lastName, collegeName){
     console.log( "First name is:",firstName ,",Last name is", lastName,",College name is", collegeName);
  }
- var displayResult= personalDetails ("sachin","Banasode","Karmayogi Engineering College");
+ personalDetails ("sachin","Banasode","Karmayogi Engineering College");
+
 
  console.log("*****Quation no 3 ******");
  
@@ -26,8 +27,10 @@ function swapValuesDude(value1, value2) {
     console.log("After Swap values",value1, value2);
     return("Swaping variables is successfully complited");
  }
-    swapValuesDude("Anushka", "Virat");
-    swapValuesDude("1000", "2000");
+    var result = swapValuesDude("Anushka", "Virat");
+    console.log(result);
+    var result = swapValuesDude("1000", "2000");
+    console.log(result);
     
 
     console.log("*****Quation no 4  ******");
