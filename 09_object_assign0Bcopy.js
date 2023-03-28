@@ -48,3 +48,7 @@ for (let index = 0; index < arrayOfBanks.length; index++) {
     console.log(`${element.bankName}, ${element.location}, ${element.account}, ${element.interestRate}`);
     
 }
+
+for (const bank of arrayOfBanks) {
+    console.log(bank);
+}

@@ -32,6 +32,7 @@ class College {
         this.CollegeOf = CollegeOf;
         this.Placement = Placement;
     }
+    
 }
 const KBP = new College ('K.B.P', 'Pandharpur', 'Solapur','A+', 'Science, Arts, Commers','80%' );
 console.log(KBP);
