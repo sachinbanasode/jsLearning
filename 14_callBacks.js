@@ -20,3 +20,9 @@ function firstClass(){
 }
 const inner = firstClass();
 inner();
+
+
+function greet() {
+    console.log("good morning.......");
+}
+setTimeout(greet, 4000);

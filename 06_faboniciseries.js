@@ -11,5 +11,5 @@ function fabSeries(fabTerm){
       second = next;  
     }
 }
-fabSeries(7);
+fabSeries(15);
 

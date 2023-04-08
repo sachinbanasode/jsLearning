@@ -1,4 +1,3 @@
-
 const mapOfNumbers = new Map();
 mapOfNumbers.set("One", 1);
 mapOfNumbers.set("Two", 2);
@@ -11,8 +10,8 @@ mapOfNumbers.set("Six", 6);
 console.log(mapOfNumbers.size);
 console.table(mapOfNumbers);
 
-console.log(mapOfNumbers.get('Two'));
-console.log(mapOfNumbers.get('One'));
+console.log(mapOfNumbers.get("Two"));
+console.log(mapOfNumbers.get("One"));
 // mapOfNumbers.delete("Two")
 // console.log("After Delete", mapOfNumbers.size);
 
@@ -21,9 +20,11 @@ console.log(mapOfNumbers.has("Two"));
 const valuesOfMap = mapOfNumbers.values();
 console.log(valuesOfMap);
 
-console.log("Traversing Map");
 const keysOfMap = mapOfNumbers.keys();
-// console.log(keysOfMap);
+console.log(keysOfMap);
+
+console.log("Traversing Map");
+
 for (const key of keysOfMap) {
-    console.log(key, mapOfNumbers.get(key));
+  console.log(key, mapOfNumbers.get(key));
 }
