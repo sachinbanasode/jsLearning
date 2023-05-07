@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercose time!</title>
+  </head>
+  <body>
+    <main>
+      <div id="overview">
+        <h1 id="mainheding">HTML & Javascript are crucial technologies</h1>
+        <p>The Web would not work without them....</p>
+      </div>
+      <div id="advantages">
+        <ul>
+          <li>Flexible</li>
+          <li>Available</li>
+          <li>Magical</li>
+        </ul>
+      </div>
+    </main>
+    <script>
+      const mainHeading = document.getElementById("mainheding");
+      console.log(mainHeading.innerHTML);
+
+      const secondAdvantage = document.getElementsByTagName("li");
+      console.log(secondAdvantage[1]);
+
+      const addDiv = document.getElementById("advantages");
+      console.log(addDiv.innerHTML);
+    </script>
+  </body>
+</html>

@@ -25,28 +25,63 @@ const arrayEmployee = [
   emp_mahi,
 ];
 
+console.log(
+  "------------------------Employees frpm Wipro Company---------------------------"
+);
 arrayEmployee.filter((Employee) => {
   if (Employee.emp_company == " Wipro ") {
     console.log(Employee.emp_name, Employee.emp_company);
   }
 });
+console.log(
+  "------------------------Employees frpm IT or HR Department---------------------------"
+);
 
-arrayEmployee.filter((Employee) =>{
-    if ((Employee.emp_dept==" IT ") || (Employee.emp_dept==" HR ")) {
-        console.log(Employee.emp_name, Employee.emp_dept);
-    }
+arrayEmployee.filter((Employee) => {
+  if (Employee.emp_dept == " IT " || Employee.emp_dept == " HR ") {
+    console.log(Employee.emp_name, Employee.emp_dept);
+  }
 });
+console.log(
+  "------------------------Employees whose id is greater than 50 ---------------------------"
+);
 
-arrayEmployee.filter((Employee)=>{
-  if (Employee.emp_id>50) {
+arrayEmployee.filter((Employee) => {
+  if (Employee.emp_id > 50) {
     console.log(Employee.emp_name, Employee.emp_id);
   }
 });
+console.log(
+  "------------------------Employees has names start fron leter 'A', 'V', 'M'---------------------------"
+);
 
 arrayEmployee.filter((Employee) => {
   let empName = Employee.emp_name;
-  if ((empName.startsWith("A")) || (empName.startsWith("V")) || (empName.startsWith("M"))) {
+  if (
+    empName.startsWith("A") ||
+    empName.startsWith("V") ||
+    empName.startsWith("M")
+  ) {
     console.log(Employee.emp_name);
   }
 });
 
+console.log(
+  "------------------------Employees average salary of all department---------------------------"
+);
+console.log(
+  "------------------------Employees average salary of 'IT' Department---------------------------"
+);
+
+// no output
+const arrayEmpSalary = arrayEmployee
+  .filter((Employee) => {
+    empSalary = Employee.emp_salary;
+    return empSalary;
+  })
+  .reduce((runningTotal, value) => {
+    totalSalary = runningTotal + value;
+    avgSalary = totalSalary / empSalary.length;
+    return avgSalary;
+  });
+console.log(arrayEmpSalary);
